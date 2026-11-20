@@ -1,0 +1,125 @@
+{
+  "input_file": "D:\\MAGANGHUB BATCH 3\\Scraper\\geolocation2\\data\\interim\\consolidation\\newswatch_long.csv",
+  "rows_read": 4457,
+  "rows_written": 4457,
+  "rows_with_qc_issues": 965,
+  "status_counts": {
+    "review": 965,
+    "pass": 3492
+  },
+  "thresholds": {
+    "min_content_chars": 100,
+    "max_content_chars": 100000,
+    "min_year": 1900,
+    "as_of_date": "2026-11-20",
+    "future_tolerance_days": 0
+  },
+  "missing_values": {
+    "category": {
+      "count": 1,
+      "percent": 0.02
+    },
+    "scraped_at": {
+      "count": 4457,
+      "percent": 100.0
+    }
+  },
+  "quality_flags": {
+    "repeated_article_id": {
+      "count": 713,
+      "percent": 16.0
+    },
+    "repeated_content_hash": {
+      "count": 687,
+      "percent": 15.41
+    },
+    "same_content_different_urls": {
+      "count": 4,
+      "percent": 0.09
+    },
+    "suspicious_category": {
+      "count": 247,
+      "percent": 5.54
+    },
+    "unknown_author": {
+      "count": 254,
+      "percent": 5.7
+    }
+  },
+  "publication_dates": {
+    "parsed_count": 4457,
+    "invalid_nonempty_count": 0,
+    "min": "2024-01-01",
+    "max": "2026-11-18"
+  },
+  "length_profiles": {
+    "title_characters": {
+      "min": 21,
+      "median": 68,
+      "p95": 96,
+      "max": 125
+    },
+    "content_characters": {
+      "min": 127,
+      "median": 2036,
+      "p95": 7886,
+      "max": 76179
+    },
+    "content_words": {
+      "min": 19,
+      "median": 281,
+      "p95": 1094,
+      "max": 10186
+    },
+    "content_below_minimum": 0,
+    "content_above_maximum": 0
+  },
+  "duplicates": {
+    "article_id_groups_with_multiple_rows": 339,
+    "rows_in_repeated_article_id_groups": 713,
+    "articles_in_multiple_query_groups": 338,
+    "content_hash_groups_with_multiple_rows": 340,
+    "rows_in_repeated_content_hash_groups": 687,
+    "content_groups_with_different_urls": 2,
+    "rows_in_different_url_content_groups": 4
+  },
+  "distributions": {
+    "query_group": {
+      "abrasi_pantai": 298,
+      "gempabumi": 1306,
+      "gunungapi": 605,
+      "likuefaksi": 183,
+      "penurunan_tanah": 126,
+      "semburan_gas_lumpur": 244,
+      "tanah_longsor": 502,
+      "tsunami": 1193
+    },
+    "top_20_sources": {
+      "www.metrotvnews.com": 1027,
+      "kompas.com": 847,
+      "antaranews.com": 644,
+      "jawapos.com": 544,
+      "liputan6.com": 325,
+      "republika.co.id": 169,
+      "rri.co.id": 144,
+      "harianjogja.com": 140,
+      "beritasatu.com": 133,
+      "viva.co.id": 104,
+      "idntimes.com": 79,
+      "mongabay.co.id": 60,
+      "sindonews.com": 53,
+      "inews.id": 41,
+      "suara.com": 37,
+      "okezone.com": 31,
+      "bmkg.go.id": 30,
+      "cnnindonesia.com": 13,
+      "betahita.id": 12,
+      "bbc.com": 10
+    }
+  },
+  "row_count_matches": true,
+  "output_files": [
+    "newswatch_preprocessed.csv",
+    "qc_issues.csv"
+  ]
+}
