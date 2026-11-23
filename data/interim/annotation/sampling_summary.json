@@ -1,0 +1,9 @@
+{
+  "input_rows": 4033,
+  "sample_size": 400,
+  "test_size": 80,
+  "train_size": 320,
+  "dual_size": 100,
+  "seed": 20261120,
+  "duplicates_excluded": true
+}

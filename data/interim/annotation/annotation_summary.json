@@ -1,0 +1,31 @@
+{
+  "total": 400,
+  "split": {
+    "train": 320,
+    "test": 80
+  },
+  "relevance": {
+    "actual_event": 308,
+    "irrelevant": 49,
+    "non_event": 43
+  },
+  "context": {
+    "impact_report": 233,
+    "expert_analysis": 106,
+    "new_event": 30,
+    "aid_response": 24,
+    "update": 7
+  },
+  "hazards": {
+    "gunungapi": 101,
+    "gempabumi": 198,
+    "tsunami": 124,
+    "tanah_longsor": 59,
+    "likuefaksi": 6,
+    "abrasi_pantai": 27,
+    "penurunan_tanah": 12,
+    "semburan_gas_lumpur": 9
+  },
+  "ambiguous": 1,
+  "multi_label_articles": 160
+}
